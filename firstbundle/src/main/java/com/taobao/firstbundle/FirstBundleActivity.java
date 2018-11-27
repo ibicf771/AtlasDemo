@@ -7,7 +7,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.taobao.firstbundle.fragment.BlankFragment;
-import com.taobao.publicBundle.Tools;
+//import com.taobao.publicBundle.Tools;
 
 public class FirstBundleActivity extends AppCompatActivity implements BlankFragment.OnFragmentInteractionListener {
 
@@ -15,9 +15,10 @@ public class FirstBundleActivity extends AppCompatActivity implements BlankFragm
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_firstbundle);
+        Log.e("111","111222");
 
 //        bundleCompile
-        Log.e("providedComple awb", "invoke tools at public bundle  Tools.getCurrentTime() > " + Tools.getCurrentTime());
+//        Log.e("providedComple awb", "invoke tools at public bundle  Tools.getCurrentTime() > " + Tools.getCurrentTime());
   //      Toast.makeText(this, "dsfsfs" + Tools.getCurrentTime(), Toast.LENGTH_LONG).show();
     }
 

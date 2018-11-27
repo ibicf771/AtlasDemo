@@ -19,7 +19,6 @@ import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.middleware.dialog.Dialog;
 import com.taobao.android.ActivityGroupDelegate;
 import com.taobao.update.Updater;
 
@@ -142,12 +141,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.awo_manager) {
-            Dialog dialog = new Dialog(this, "单bundle调试",
-                    "1、安装设备且连接电脑成功\n\n" +
-                            "2、修改一个bundle工程的代码或者自由（设置生效的标识）\n\n" +
-                            "3、bundle工程的目录下执行 ../gradlew clean assemblePatchDebug,然后等应用重启或者应用关闭后点击重启");
-
-            dialog.show();
+//            Dialog dialog = new Dialog(this, "单bundle调试",
+//                    "1、安装设备且连接电脑成功\n\n" +
+//                            "2、修改一个bundle工程的代码或者自由（设置生效的标识）\n\n" +
+//                            "3、bundle工程的目录下执行 ../gradlew clean assemblePatchDebug,然后等应用重启或者应用关闭后点击重启");
+//
+//            dialog.show();
 
 
         } else if (id == R.id.nav_dex_patch) {

@@ -25,6 +25,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile project(':middlewarelibrary')
-    compile project(':lottie')
+//    compile project(':lottie')
 
 }

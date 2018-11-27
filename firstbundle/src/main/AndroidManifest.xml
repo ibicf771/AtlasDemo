@@ -6,12 +6,10 @@
         android:allowBackup="true"
         android:supportsRtl="true">
         <activity
-            android:name=".FirstBundleActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".FirstBundleActivity" />
 
         <activity
-            android:name=".UseremoteActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".UseremoteActivity" />
 
         <service
             android:name=".FirstBundleService"
@@ -19,8 +17,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".WebViewDemoActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".WebViewDemoActivity" />
     </application>
 
 </manifest>

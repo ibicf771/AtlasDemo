@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
-import com.taobao.middleware.ICaculator;
+//import com.taobao.middleware.ICaculator;
 
 public class UseremoteActivity extends AppCompatActivity {
 
@@ -87,8 +87,8 @@ public class UseremoteActivity extends AppCompatActivity {
                                     }
                                 });
 
-                                ICaculator caculator = iRemote.getRemoteInterface(ICaculator.class,null);
-                                Toast.makeText(RuntimeVariables.androidApplication,"1+1 = "+caculator.sum(1,1),Toast.LENGTH_SHORT).show();
+//                                ICaculator caculator = iRemote.getRemoteInterface(ICaculator.class,null);
+//                                Toast.makeText(RuntimeVariables.androidApplication,"1+1 = "+caculator.sum(1,1),Toast.LENGTH_SHORT).show();
 
                                 //you can also use this
 //                                Bundle bundle = new Bundle();
